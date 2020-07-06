@@ -1,0 +1,164 @@
+@font-face {
+  font-family: 'light';
+  src: url(/fonts/Poppins-ExtraLight.ttf);
+}
+
+@font-face {
+  font-family: 'bold';
+  src: url(/fonts/Poppins-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, body {
+  position: relative;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background: #070640;
+  font-family: "bold";
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #0b0b47;
+}
+
+.flex-e {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  line-height: 1.5;
+}
+
+.image img {
+  border-radius: 10%;
+}
+
+.image {
+  padding: 15px;
+  margin: 5%;
+  border: 8px solid #2500f9;
+  border-radius: 10%;
+}
+
+.btn-bg {
+  background: #2500f9 !important;
+  color: white;
+}
+
+.expert {
+  padding: 5em 3rem;
+  margin: 0.1rem;
+  border-radius: 5%;
+  border-bottom-right-radius: 20%;
+  background: #2500f9;
+}
+
+.experts {
+  padding: 5em 3rem;
+  margin: 0.1rem;
+  border-radius: 5%;
+  border-bottom-right-radius: 20%;
+  background: white;
+  color: #0b0b47;
+}
+
+.bg-second {
+  background: #0b0b47 !important;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-button-next, .swiper-button-prev {
+  top: 5% !important;
+  bottom: auto !important;
+}
+
+.swiper-button-prev {
+  right: 10% !important;
+  left: auto !important;
+}
+
+.swiper-wrapper {
+  padding-top: 15%;
+}
+
+.card {
+  border: none;
+}
+
+.card-body {
+  background: #070640;
+  padding: 1rem 0rem;
+}
+
+.card-body small {
+  background: #2500f9;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
+
+.content {
+  padding: 3em;
+  margin: 5em 0.5em;
+  -webkit-box-shadow: 0 0 6px #2500f9;
+          box-shadow: 0 0 6px #2500f9;
+}
+
+footer ul {
+  list-style-type: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer li {
+  padding: 5px;
+}
+
+.social ul {
+  list-style-type: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  padding-top: 3rem;
+}
+
+.social li {
+  padding: 0 15px;
+}
+
+@media (max-width: 768px) {
+  .portfolio {
+    font-size: larger;
+    margin: 0 !important;
+    padding: 15px 0;
+  }
+  .work {
+    margin-top: 1em !important;
+  }
+  .swiper-button-prev {
+    right: 50px !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */

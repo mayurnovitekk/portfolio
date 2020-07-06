@@ -1,0 +1,141 @@
+$primary: #2500f9;
+$secondary: #0b0b47;
+$main: #070640;
+$font: 'bold';
+$light: 'light';
+$breakpoint-tablet: 768px;
+@font-face {
+    font-family: 'light';
+    src: url(/fonts/Poppins-ExtraLight.ttf);
+}
+@font-face {
+    font-family: 'bold';
+    src: url(/fonts/Poppins-Regular.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html, body {
+    position: relative;
+    height: 100%;
+    overflow-x: hidden;
+  }
+
+body{
+    background: $main;
+    font-family: $font;
+    color: white;   
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: $secondary;
+}
+.flex-e{
+    align-self: center;
+    line-height: 1.5;
+}
+.image{
+    img{
+        border-radius: 10%;
+    }
+} 
+.image{
+    padding: 15px;
+    margin: 5%;
+    border: 8px solid #2500f9;
+    border-radius: 10%;
+}
+.btn-bg{
+    background: $primary!important;
+    color: white;
+}
+.expert{
+    padding: 5em 3rem;
+    margin: 0.1rem;
+    border-radius: 5%;
+    border-bottom-right-radius: 20%;
+    background: $primary;
+}
+.experts{
+    padding: 5em 3rem;
+    margin: 0.1rem;
+    border-radius: 5%;
+    border-bottom-right-radius: 20%;
+    background: white;
+    color: $secondary;
+}
+.bg-second{
+background: $secondary!important;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-button-next, .swiper-button-prev{
+    top: 5%!important;
+    bottom: auto!important;
+}
+.swiper-button-prev{
+    right: 10%!important;
+    left: auto!important;
+}
+.swiper-wrapper{
+    padding-top: 15%;
+}
+.card{
+    border: none;
+}
+.card-body{
+    background: $main;
+    padding: 1rem 0rem;
+}
+.card-body{
+    small{
+        background: $primary;
+        max-width: fit-content;
+    }
+}
+.content{
+    padding: 3em;
+    margin: 5em 0.5em;
+    box-shadow: 0 0 6px #2500f9;
+}
+footer{
+    ul{
+        list-style-type: none;
+        display: inline-flex;
+        justify-content: center;
+    }
+    li{
+        padding: 5px;
+    }
+}
+.social{
+    ul{
+        list-style-type: none;
+        display: inline-flex;
+        justify-content: start;
+        padding-top: 3rem;
+    }
+    li{
+        padding: 0 15px;
+    }
+}
+@media (max-width: $breakpoint-tablet) {
+  .portfolio{
+    font-size: larger;
+    margin: 0!important;
+    padding: 15px 0;
+  }
+  .work{
+      margin-top: 1em!important;
+  }
+  .swiper-button-prev{
+      right: 50px!important;
+  }
+}
